@@ -3,8 +3,8 @@
 You will need postgres SQL server and go installed on your machine.
 
 ### Install Postgres
-`sudo apt update
-sudo apt install postgresql postgresql-contrib`
+`sudo apt update`
+`sudo apt install postgresql postgresql-contrib`
 
 ### Install Go
 You can find Go's offical installation process [here](https://go.dev/doc/install)
@@ -52,12 +52,12 @@ You dont need to set a current_user_name, the program will handle logging in and
 
 
 
-Once you have installed the necessary programs, started postgres created your config file, you should be able to use gator!
+Once you have installed the necessary programs, started postgres and created your config file, you should be able to use gator!
 
-The following are some important commands you should know
-`gator register "username"` -> register a new user and login as that user
-`gator login "username"` -> login as specified user
-`gator addfeed "feed name" "feed URL"` -> add an RSS feed to gator
-`gator agg "time"` -> aggregates feeds on a set interval, meant to be run in the background to pull posts from the RSS feeds, "time" must formatted like the following: `5s, 5m, 5h`
-`gator follow "URL"` -> follows the specified feed using it's URL
-`gator browse [optional limit]` -> will display the posts from currently aggregated feeds, you may optionally set how many posts you want returned.
+The following are some important commands you should know: <br>
+`gator register "username"` -> register a new user and login as that user <br>
+`gator login "username"` -> login as specified user <br>
+`gator addfeed "feed name" "feed URL"` -> add an RSS feed to gator <br>
+`gator agg "time"` -> aggregates feeds on a set interval, meant to be run in the background to pull posts from the RSS feeds, "time" must formatted like the following: `5s, 5m, 5h` <br>
+`gator follow "URL"` -> follows the specified feed using it's URL <br>
+`gator browse [optional limit]` -> will display the posts from currently aggregated feeds, you may optionally set how many posts you want returned. <br>
