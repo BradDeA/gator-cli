@@ -50,7 +50,7 @@ You dont need to set a current_user_name, the program will handle logging in and
 }`
 
 
-
+### Usage
 
 Once you have installed the necessary programs, started postgres and created your config file, you should be able to use gator!
 
